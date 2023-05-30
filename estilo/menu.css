@@ -1,0 +1,64 @@
+header{
+/*  position: fixed; */
+}
+
+#menu{
+    padding: 15px;
+    width: 100%;
+    height: 55px;
+    /* */  background-image: linear-gradient( #8C7C6D,  #d9d9d9);
+    text-align: right;
+    z-index: 9999;
+    position: fixed;
+}
+
+a.imenu{
+    padding: 0px;
+    text-decoration: none;
+    margin: 0px 0px 0px 5px;
+    font-family: var(--fonttitulo);
+    color: #734338;
+    font-size: 18pt;
+
+    animation: menu;
+    animation-duration: 5s;
+}
+
+a.imenu:hover{
+    text-shadow: 0x 0px 4px rgba(255, 255, 255, 0.521);
+    color: #962e17;
+    transition: color 2s;
+}
+
+a.imenu:active{
+    color: rgba(255, 255, 255, 0.418);
+    transition: color 0s;
+    text-decoration: line-through;
+}
+
+@keyframes menu{
+    from{
+        color: var(--cor5);
+    }
+    to{
+        color: black;
+    }
+}
+
+#cixamenu{
+    background-color: transparent;
+    border: none;
+    font-family: var(--fonttitulo);
+}
+
+#submenu{
+    color: var(--cor3);
+}
+
+#submenu:hover{
+    border-radius: 15px;
+}
+
+#submenu:active{
+    background-color: var(--cor5);
+}

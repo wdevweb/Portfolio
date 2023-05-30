@@ -1,0 +1,115 @@
+div#habilidades{
+    width: 100%;
+    min-height: 100vh;
+    max-height: 500vh;
+    display: flex;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    background-image: url('../imagens/fcomp2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.397);
+}
+
+#fcomp{
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+
+}
+
+div#hab{
+    min-width: 450px;
+    max-width: 980px;
+    min-height: 300px;
+    max-height: 3000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*LOGOS HABILIDADES*/
+
+div#logos{
+    min-width: 330px;
+    max-width: 440px;
+    height: min(240px, 100vh);
+    max-height: 600px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    background-color: #8C7C6D;
+    margin: 10px;
+    float: left;
+}
+
+div#desc{
+    width: max(440px, 330px);
+    height: min(240px, 100vh);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    background-color: #8C7C6D;
+    color: var(--cor1);
+    margin: 10px;
+    float: left;
+}
+
+.clear{
+    clear: left;
+}
+
+p#psobre{
+    padding: 15px;
+    font-size: min(13pt, 4vw);
+    font-family: var(--fonttitulo);
+}
+
+img.logs{
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+    float: left;
+    margin: 8px;
+
+    animation-name: blogo;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+    
+    transition: 2s transform , 1s ease-in-out;
+}
+
+@keyframes blogos{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+img.logs:hover{
+    box-shadow: 0px 0px 13px #857668;
+    transform: translate(2%, -5%);
+    transition-duration: 0.2s;
+}
+
+/*Fosco*/
+
+#logos, .logs{
+    transition: 0.5s;
+}
+
+#logos:hover .logs{
+    filter: blur(10px);
+}
+
+.logs:hover{
+    filter: blur(0px) !important ;
+}

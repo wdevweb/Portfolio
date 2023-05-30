@@ -1,0 +1,372 @@
+div#sobre{
+    width: 100%;
+    min-height: 100vh;
+    max-height: 1000vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#card-p{
+    padding: 10px;
+    min-width: 360px;
+    width: max(360px, 980px);
+    height: 80%;
+    background-color: #8C7C6D;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.363);
+    margin-bottom: 100px;
+}
+
+#rsdesc{
+    width: 100%;
+    min-height: 250px;
+    max-height: 500vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.rscard{
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+    min-width: 350px;
+    max-width: 400px;
+    height: 230px;
+    color: white;
+    float: left;
+}
+
+#titsocial{
+    font-family: var(--fonttitulo);
+    text-align: center;
+    color: var(--cor5);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
+}
+
+p.redep{
+    padding: 10px 0px 10px 0px;
+    min-width: 100px;
+    max-width: 300px;
+    height: 135px;
+    font-size: 16pt;
+    /*font-size: min(15pt, 3vw);*/
+    font-family: var(--fonttitulo);
+    color: var(--cor5);
+}
+
+/* incones redes sociais */
+
+.igeral{
+    margin-top: 35px;
+}
+
+#i1{
+    width: 15px;
+    height: 12px;
+}
+
+#i2{
+    width: 15px;
+    height: 15px;
+}
+
+#i3{
+    width: 15px;
+    height: 15px;
+}
+
+/* botão visitar */
+.linkvisitar{
+    text-decoration: none;
+    color: #D9D9D9;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+#btvisitar{
+    color: #D9D9D9;
+    background-color: #734338;
+    border-radius: 25px;
+    padding: 8px;
+    width: 73px;
+}
+
+#btvisitar:hover{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.377);
+    transform: translate(0%, -4%);
+}
+
+#btvisitar:active{
+    box-shadow: none;
+    color: #9e9e9e;
+    transform: translate(0%, 0%);
+}
+
+/*DIV SONIC*/
+
+.SonicE{
+    background-color: yello;
+    width: 250px;
+    float: left;
+    padding-top: 25px;
+    margin-right: 20px;
+    /*margin-left: 100px;*/
+}
+
+@media (max-width: 768px) {
+    .SonicE{
+        margin-left: 180px;
+    }
+  }
+
+.limpar{
+    clear: left;
+}
+
+#sonic{
+    width: 150px;
+    height: 250px;
+    margin-left: 60p;
+}
+
+#anel{
+    width: 50px;
+    height: 50px;
+    animation-name: anel;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+    
+}
+
+#anel:hover{
+    transform: rotate(5deg);
+}
+
+@keyframes anel{
+    from{
+        transform: translate(0, 0);
+    }
+    to{
+        transform: translate(0, -50%);
+    }
+}
+
+#brilho{
+    display: inline-block;
+    width: 40px;
+    height: 38px;
+    background-color: purpl;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 90px);
+}
+
+#separarbrilho {
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    transition: opacity 0s  ease-out ;
+}
+
+#separarbrilho:hover{
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+#separarbrilho:not(hover){
+    transition-delay: 3s;
+}
+
+#bri1{
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    animation-name: brilhos, brilhossup1;
+    animation-duration: 1s, 2s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-fill-mode: forwards, both;
+    animation-iteration-count: infinite, infinite;
+    animation-direction: reverse, normal;
+}
+
+#bri2{
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    animation-name: brilhos, brilhossup1;
+    animation-duration: 2s, 3s;
+    animation-timing-function: ease-in-out, ease;
+    animation-fill-mode: forwards, forwards;
+    animation-iteration-count: infinite, infinite;
+    animation-direction: reverse, alternate;
+}
+
+#bri3{
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    animation-name: brilhos, brilhossup2;
+    animation-duration: 1.3s, 1.3s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-fill-mode: forwards, forwards;
+    animation-iteration-count: infinite, infinite;
+    animation-direction: reverse, normal;
+}
+
+#bri4{
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    animation-name: brilhos;
+    animation-duration: .6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes brilhos{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes brilhossup1{
+    from{
+        transform: translate(0, 0);
+    }
+    to{
+        transform: translate(0, -40px);
+    }
+}
+
+@keyframes brilhossup2{
+    from{
+        transform: translate(0, 0);
+    }
+    to{
+        transform: translate(0, -20px);
+    }
+}
+
+/* LISTA QUALIFICAÇÔES */
+
+#especialidades{
+    background-color: lightgre;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    #especialidades{
+        margin-left: 0px;
+    }
+  }
+
+h4#titqual{
+    font-family: var(--fonttitulo);
+    color: var(--cor5);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-size: 25px;
+    animation-name: qualmov;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+
+@keyframes qualmov{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(4%, 2%);
+    }
+}
+
+#ulespec{
+    list-style: disc;
+}
+
+.liespec{
+    font-family: var(--fonttitulo);
+    font-size: 18px;
+    color: var(--cor5);
+}
+
+/*             */
+
+#menuc{
+    width: 132px;
+    margin: auto;
+}
+
+
+.incone{
+    display: inline;
+}
+
+.s-menu{
+    display: fle;
+    width: 300px;
+    justify-items: right;
+    align-items: end;
+    justify-content: right;
+}
+
+#visitar{
+    opacity: 0;
+    font: 8px;
+    font-family: var(--fontetexto);
+    color: var(--cor1);
+    text-indent: 8px;
+    margin-top: 4px;
+}
+
+.s-li{
+    width: 25px;
+    height: 25px;
+    margin: 8px;
+    border-radius: 50%;
+    transition: 2s transform, 1s ease-in-out;
+}
+
+.s-li:hover{
+    background-color: #734338;
+    border-radius: 50%;
+    border: 1px solid #734338;
+    transform: translate(-8%, -8%);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.356);
+    transition-duration: 1s;
+}
+
+.s-li:active{
+    
+    transform: translate(8%, 8%);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.356);
+    background-color: rgb(0, 0, 0);
+}
+.s-button{
+    text-decoration: none;
+    background-color: #8C7C6D;
+    padding: 5px;
+    margin: 10px 5px 10px 5px;
+    border-radius: 25px;
+    color: white;
+}
+
+ul.s-menu{
+    list-style: none;
+}

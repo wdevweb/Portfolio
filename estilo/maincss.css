@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('menu.css');
+@import url('divhome.css');
+@import url('divsobre.css');
+@import url('divhab.css');
+@import url('divproj.css');
+@import url();
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #73433856;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--cor5);
+}
+
+:root{
+    --cor1: #D9D9D9;
+    --cor2: #A67449;
+    --cor3: #BFA38A;
+    --cor4: #8C7C6D;
+    --cor5: #734338;
+
+    --fonttitulo:'Nova Oval', cursive;
+    --fontetexto:'Akaya Kanadaka', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    background-color: var(--cor1);
+    width: 100%;
+}
+
+header{
+    width: 100%;
+}
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    background-color:  #734338;
+    color: white;
+    font-style: italic;
+    
+}
+.Ffooter {
+    border-top: 1px solid #efebeb;
+    padding: 15px;
+    background-color: var(--cor5);
+}
+
+.Ffooter p,
+.Ffooter a  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: var(--cor1);
+}

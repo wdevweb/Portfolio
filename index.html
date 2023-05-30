@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- FAVCON -->
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="estilo/maincss.css">
+</head>
+<body onload="car()"> 
+    <header>
+        <nav id="menu" class="menul">
+            <a href="#home" class="imenu">Início</a>  
+            <a href="#sobre" class="imenu">Sobre</a>    
+            <a href="#habilidades" class="imenu">Habilidades</a>
+            <a href="#projetos" class="imenu">Projetos</a>
+        </nav>
+    </header>
+    <div id="home">
+        <div id="boasvindas">
+           
+            <div id="ola1">
+                <h1 id="dia" >Olá, ...!</h1>
+                <h2 class="esc">Seja bem vindo ao meu portfólio.</h2>
+                <p class="esc">Desenvolvido a base de HTML, CSS e JavaScript.</p>
+            </div>
+            <div id="ola2">
+                <div >
+                    <img src="imagens/perfil.png" alt="perfil.png" id="divimg">
+                </div>
+            </div>
+
+        </div>
+        <div id="caixalinha">
+            <div id="linha" onclick="clinha()"></div>
+        </div>
+    </div>
+    <div id="sobre">
+        <div id="card-p">
+            <div id="rsdesc" data-aos="fade-up">
+                <span class="rscard sumiu"  data-aos="fade-up">
+                        <h1 id="titsocial"  data-aos="zoom-in">Contato</h1>
+                        <p class="redep" id="inf"  data-aos="zoom-in" >
+                            wdevweb23@gmail.com <br> (32)988755183 <br>
+                            <img src="imagens/emailinc.png" alt="emailincone" id="i1"  class="igeral" data-aos="zoom-in" title="Gmail">
+                            <img src="imagens/whatsappinc.png" alt="whatsappincone" id="i2" class="igeral" data-aos="zoom-in" title="Whatsapp">
+                            <img src="imagens/telegraminc.png" alt="telegramincone" id="i3" class="igeral" data-aos="zoom-in" title="Telegram">
+                        </p>
+                        <p id="btvisitar"  data-aos="zoom-in"><a href="https://api.whatsapp.com/send?phone=5532988755183&text=Ol%C3%A1,%20tudo%20bem?" class="linkvisitar" rel="
+                            external" target="_blank"  data-aos="zoom-in">Contatar</a></p>
+                </span>
+                <div class="SonicE" data-aos="fade-up">
+                        <img src="imagens/sonic.png" alt="Sonic" id="sonic"  data-aos="zoom-in">
+                        <div id="brilho">
+                            <img src="imagens/sonicanel.png" alt="AnelSonic" id="anel"  data-aos="zoom-in">
+                            <div id="separarbrilho" data-aos="fade-up">
+                                <img src="imagens/sonic/brilho1.png" alt="brilhos" id="bri1">
+                                <img src="imagens/sonic/brilho2.png" alt="brilhos" id="bri2">
+                                <img src="imagens/sonic/brilho3.png" alt="brilhos" id="bri3">
+                                <img src="imagens/sonic/brilho4.png" alt="brilhos" id="bri4">
+                            </div>
+                        </div>
+                </div>
+                <div id="especialidades" data-aos="fade-up">
+                    <h4 id="titqual"  data-aos="zoom-in">Especialidades</h4>
+                    <ul id="ulespec">
+                        <li class="liespec" data-aos="zoom-in">HTML 5</li>
+                        <li class="liespec" data-aos="zoom-in">CSS 3</li>
+                        <li class="liespec" data-aos="zoom-in">Java Script</li>
+                        <li class="liespec" data-aos="zoom-in">Noje.js</li>
+                        <li class="liespec" data-aos="zoom-in">Bootstrap.js</li>
+                        <li class="liespec" data-aos="zoom-in">React.js</li>
+                        <li class="liespec" data-aos="zoom-in">JQuery</li>
+                        <li class="liespec" data-aos="zoom-in">Git/GitHub</li>
+                    </ul>
+                </div>
+                <div class="limpar"></div>
+            </div>
+            <div id="flutuando2">
+                <div id="menuc">
+                    <p id="visitar">Clique para visitar</p>
+                    <div class="s-menu" data-aos="fade-up">
+                        <p class="incone"><img src="imagens/homeincone.png" alt="home" class="s-li"  onmouseover="mudarhome()" onmouseleave="tirou()"></p>
+                        <p class="incone"  data-aos="fade-up"><a href="https://br.linkedin.com/?trk=guest_homepage-basic_nav-header-logo" rel="external" target="_blank"><img src="imagens/linkedinincone.png" alt="linkedin" class="s-li" onmouseover="mudarlinkedin()" onmouseleave="tirou()"></a></p>
+                        <p class="incone"><a href="https://github.com/wdevweb" rel="external" target="_blank"><img src="imagens/githubincone.png" alt="github" class="s-li" onmouseover="mudargithub()" onmouseleave="tirou()"></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>          
+    </div>
+
+    <div id="habilidades">
+        <div id="hab">
+            <div id="logos" data-aos="zoom-out">
+                <img src="imagens/html.png" alt="HTML5" onmouseover="phtml()" onmouseleave="lhtml()" class="logs">
+                <img src="imagens/coreldraw.png" alt="CorelDraw" onmouseover="pcd()" onmouseleave="lcd()" class="logs">
+                <img src="imagens/css.png" alt="CSS3" onmouseover="pcss()" onmouseleave="lcss()" class="logs" >
+                <img src="imagens/wp.png" alt="WordPress" onmouseover="pwp()" onmouseleave="lwp()" class="logs">
+                <img src="imagens/photoshop.png" alt="PhotoShop" onmouseover="pps()" onmouseleave="lps()" class="logs">
+                <img src="imagens/js.png" alt="JavaScript" onmouseover="pjs()" onmouseleave="ljs()" class="logs">
+                <img src="imagens/mysql.png" alt="MySQL" onmouseover="psql()" onmouseleave="lsql()" class="logs">
+
+            </div>
+            <div id="desc" data-aos="zoom-out">
+                <p id="psobre" data-aos="fade-up">Passe por cima de cada botão para ver sobre!</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <div id="projetos" onmouseleave="restaurarimg()">
+        <div id="trab" >
+            <h1 id="tproj"  data-aos="zoom-out" title="Projetos Gerais">Projetos</h1> <br>
+            <div id="portfoliodevweb">
+                <h2 class="h2proj" data-aos="zoom-out" title="Desenvolvimento Web Front-End">Desenvolvimento Web</h2>
+                <div class="conjunto" data-aos="zoom-out">
+                    <article class="projsdw">            </article>
+                    <article class="projsdw">            </article>
+                    <article class="projsdw">            </article>
+                    <article class="projsdw">            </article>
+                    <article class="projsdw">            </article>
+                    <article class="projsdw">            </article>
+                    <article class="projsdw">            </article>
+                    <article class="projsdw">            </article>
+                    <article class="projsdw">            </article>
+                    <article class="projsdw">            </article>
+                </div>
+                <div class="diviframedevweb"  data-aos="zoom-out">
+                    <iframe src="" frameborder="0" id="iframe"></iframe>
+                </div>
+            </div>
+            <div id="protfoliodesigner">
+                <h2 class="h2proj" data-aos="zoom-out" title="Designer Identidade Visual">Designer Gráfico</h2>
+                <div class="conjunto" data-aos="zoom-out">
+                    <article class="projsdg" onclick="logos('inovae')" name="inovae"> 
+                        <img src="imagens/DesignerGrafico/LogosFundoOficial/inovae.png" alt="InfoTechLogo" title="Clique para visualizar nos formatos!">
+                    </article>
+                    <article class="projsdg" onclick="logos('pacmentos')">
+                        <img src="imagens/DesignerGrafico/LogosMini/logo-pacmentos.png" alt="PacmentosLogo" title="Clique para visualizar nos formatos!">
+                    </article>
+                    <article class="projsdg" onclick="logos('veigasimportados')">
+                        <img src="imagens/DesignerGrafico/LogosMini/logo-veigas.png" alt="VeigasImportadosLogo" title="Clique para visualizar nos formatos!">
+                    </article>
+                    <article class="projsdg" onclick="logos('+seguro')">
+                        <img src="imagens/DesignerGrafico/LogosMini/logo-+seguro.png" alt="+SeguroLogo" title="Clique para visualizar nos formatos!">
+                    </article>
+                    <article class="projsdg" onclick="logos('conectatecnologia')">
+                        <img src="imagens/DesignerGrafico/LogosMini/logo-conecta.png" alt="ConectaLogo" title="Clique para visualizar nos formatos!">
+                    </article>
+                    <article class="projsdg" onclick="logos('filtrodagua')">
+                        <img src="imagens/DesignerGrafico/LogosMini/logo-filtrodagua.png" alt="FiltroDaguaLogo" title="Clique para visualizar nos formatos!">
+                    </article>
+                    <article class="projsdg" onclick="logos('gotransportes')">
+                        <img src="imagens/DesignerGrafico/LogosMini/logo-go.png" alt="GoTransportesLogo" title="Clique para visualizar nos formatos!">
+                    </article>
+                    <article class="projsdg" onclick="logos('infotech')">
+                        <img src="imagens/DesignerGrafico/LogosMini/logo-Infotech.png" alt="InfoTechLogo" title="Clique para visualizar nos formatos!">
+                    </article>
+                    <article class="projsdg" onclick="logos('bola8')">
+                        <img src="imagens/DesignerGrafico/LogosMini/logo-bola8.png" alt="Bolo8Logo" title="Clique para visualizar nos formatos!">
+                    </article>
+                    <article class="projsdg"></article>
+                    <article class="projsdg"></article>
+                    <article class="projsdg"></article>
+                    <article class="projsdg"></article>
+                    <article class="projsdg"></article>
+                    <article class="projsdg"></article>
+                    <article class="projsdg"></article>
+                    <article class="projsdg"></article>
+                    <article class="projsdg"></article>
+                    <article class="projsdg"></article>
+                    <article class="projsdg"></article>
+                    <article class="projsdg"></article>
+                </div>
+                <div class="diviframedesigner" data-aos="zoom-out">
+                    <div class="iframelogos" id="pb"> 
+                        <img src="imagens/DesignerGrafico/LogosFundoOficial/FundoOficial.jpg" alt="" id="if1" class="if">
+                    </div>
+                    <div class="iframelogos" id="pb">
+                        <img src="imagens/DesignerGrafico/LogosFundoOficial/FundoTransparente.png" alt="" id="if2" class="if">
+                    </div>
+                    <div class="iframelogos">
+                        <img src="imagens/DesignerGrafico/LogosFundoOficial/FundoPreto.jpg" alt="" id="if3" class="if">
+                    </div>
+                    <div class="iframelogos">
+                        <img src="imagens/DesignerGrafico/LogosFundoOficial/FundoBranco.jpg" alt="" id="if4" class="if">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="Ffooter correcao ">
+        <div class="container">
+            <div class="row">
+                <div class="ml-auto col-lg-4 col-md-5 ">
+                    <p class="copyright-text ">Copyright &copy;
+                    <br>Design: <a href="https://wdevweb.github.io/Portfolio/" target="_blank">WDevWeb</a></p>
+                </div>
+
+                <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
+                    <p class="mr-4">
+                        <i class="fa fa-envelope-o mr-1"></i>
+                        <span href="#">wdevweb23@gmail.com</span>
+                    <br>
+                    <i class="fa fa-phone mr-1"></i> (32) 9 8875 - 5183</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init()</script>
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!-- MAIN SCRIPT-->
+    <script src="JavaScript/script.js"></script>
+    <script src="JavaScript/mudarlogos.js"></script>
+</body>
+</html>

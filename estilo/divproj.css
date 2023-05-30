@@ -1,0 +1,207 @@
+div#projetos{
+    width: 100%;
+    min-height: 90vh;
+    max-height: 10000vh;
+    display: flex;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+}
+
+#trab{
+    min-width: 350px;
+    max-width: 970px;
+    background-color: #8C7C6D;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.459);
+    margin: auto;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    #trab{
+        max-width: 100%;
+    }
+  }
+
+
+div#protfolioweb{
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    #protfolioweb{
+        max-width: 100%;
+    }
+  }
+
+h1#tproj{
+    text-align: center;
+    padding: 15px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.178);
+    font-family: 'Nova Oval', cursive;
+    color: var(--cor5);
+    font-size: 50px;
+}
+
+.h2proj{
+    text-align: center;
+    font-family: var(--fonttitulo);
+    color: var(--cor1);
+    font-size: 30px;
+    padding-bottom: 12px;
+}
+
+.conjunto{
+    margin: auto;
+    width: 85%;
+    height: 240px;
+    display: flex;
+    overflow-x: scroll;
+    box-sizing: border-box;
+}
+
+.projsdw{
+    background-image: url('../imagens/embreve.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-width: 300px;
+    margin: 1%;
+    height: 200px;  
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.534);
+    transition: 2s transform , 1s ease-in-out;
+    box-sizing: border-box;
+    
+}
+
+@media (max-width: 768px) {
+    .projsdw{
+        min-width: 260px;
+    }
+  }
+
+.projsdw:hover{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.541);
+    transform: translate(-3%, -3%);
+}
+
+
+.diviframedevweb{
+    width: 85%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.39);
+    margin: 10px auto 50px auto;
+    min-height: 500px;
+    max-height: 200vh;
+    border-radius: 0px 0px 10px 10px;
+    box-sizing: border-box;
+}
+
+div#protfoliodesigner{
+    box-sizing: border-box;
+}
+
+
+
+.diviframedesigner{
+    width: 85%;
+    margin: 10px auto 50px auto;
+    min-height: 500px;
+    max-height: 800vh;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.projsdg{
+    display: inline-block;
+    background-image: url('../imagens/embreve.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-width: 200px;
+    margin: 1%;
+    height: 200px;  
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.534);
+    box-sizing: border-box;
+    transition: 3s transform , 2s ease-in-out;
+}
+
+.projsdg:hover{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.541);
+    transform: translate(-3%, -3%) ;
+    transition-timing-function: cubic-bezier(.15, .89, .85, .26);
+    transform: scale(1.04);
+}
+.iframelogos{
+    width:343px;
+    margin: 30px;
+    float: left;
+    height: 343px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.301);
+    border-radius: 15px;
+    background-color: transparent;
+    transition: 2s transform , 1s ease-in-out;
+    box-sizing: border-box;
+}
+
+.iframelogos:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.541);
+    border-radius: 0;
+}
+
+.if{
+    width:343px;
+    height: 343px;
+    border-radius: 15px;
+    background-color: transparent;
+    transition: 2s transform , 1s ease-in-out;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.if:hover{
+    border-radius: 0;
+    border-radius: 0px;
+    transition: 2s;
+}
+
+
+/*
+#iframe2{
+    background-color: purple;
+    width: 48%;
+    height: 48%;
+    margin-bottom: 2%;
+    float: left;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.363);
+}
+#iframe3{
+    background-color: purple;
+    width: 48%;
+    height: 48%;
+    margin-right: 4%;
+    margin-top: 2%;
+    float: left;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.363);
+}
+
+#iframe4{
+    background-color: purple;
+    width: 48%;
+    height: 48%;
+    margin-top: 2%;
+    float: left;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.363);
+}*/
+
+
+

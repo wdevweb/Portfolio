@@ -20,7 +20,7 @@ function mudarlinkedin(){
   fundo.style.background = '#0275b4'
   fundo.style.transitionDuration = '2s'
   titsocial.innerHTML = 'LinkedIn'
-  inf.innerHTML = '@wdevweb__'
+  inf.innerHTML = 'William Barbosa'
   visita.style.opacity = 1
 }
 
@@ -44,7 +44,7 @@ function mudargithub(){
   fundo.style.background = 'black'
   fundo.style.transitionDuration = '2s'
   titsocial.innerHTML = 'GitHub'
-  inf.innerHTML = '@wdevweb__'
+  inf.innerHTML = 'wdevweb'
   visita.style.opacity = 1
 }
 
@@ -225,6 +225,11 @@ function restaurarimg(){
 
 }
 
+// PREVINIR LINK
+
+const prevent = (e) =>{
+  e.preventDefault()
+}
 
 
 

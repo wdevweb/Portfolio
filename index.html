@@ -89,7 +89,7 @@
                     <p id="visitar">Clique para visitar</p>
                     <div class="s-menu" data-aos="fade-up">
                         <p class="incone"><img src="imagens/homeincone.png" alt="home" class="s-li"  onmouseover="mudarhome()" onmouseleave="tirou()"></p>
-                        <p class="incone"  data-aos="fade-up"><a href="https://br.linkedin.com/?trk=guest_homepage-basic_nav-header-logo" rel="external" target="_blank"><img src="imagens/linkedinincone.png" alt="linkedin" class="s-li" onmouseover="mudarlinkedin()" onmouseleave="tirou()"></a></p>
+                        <p class="incone"  data-aos="fade-up"><a href="https://www.linkedin.com/in/william-barbosa-755234273/" rel="external" target="_blank"><img src="imagens/linkedinincone.png" alt="linkedin" class="s-li" onmouseover="mudarlinkedin()" onmouseleave="tirou()"></a></p>
                         <p class="incone"><a href="https://github.com/wdevweb" rel="external" target="_blank"><img src="imagens/githubincone.png" alt="github" class="s-li" onmouseover="mudargithub()" onmouseleave="tirou()"></a></p>
                     </div>
                 </div>
@@ -121,22 +121,58 @@
         <div id="trab" >
             <h1 id="tproj"  data-aos="zoom-out" title="Projetos Gerais">Projetos</h1> <br>
             <div id="portfoliodevweb">
-                <h2 class="h2proj" data-aos="zoom-out" title="Desenvolvimento Web Front-End">Desenvolvimento Web</h2>
-                <div class="conjunto" data-aos="zoom-out">
-                    <article class="projsdw">            </article>
-                    <article class="projsdw">            </article>
-                    <article class="projsdw">            </article>
-                    <article class="projsdw">            </article>
-                    <article class="projsdw">            </article>
-                    <article class="projsdw">            </article>
-                    <article class="projsdw">            </article>
-                    <article class="projsdw">            </article>
-                    <article class="projsdw">            </article>
-                    <article class="projsdw">            </article>
-                </div>
-                <div class="diviframedevweb"  data-aos="zoom-out">
-                    <iframe src="" frameborder="0" id="iframe"></iframe>
-                </div>
+                <h2 class="h2proj" data-aos="zoom-out" title="Desenvolvimento Web Front-End">Desenvolvimento Web</h2><div class="conjunto" data-aos="zoom-out">
+                    <a 
+                    href="https://wdevweb.github.io/VeigasImportados/" 
+                    onmouseenter="document.getElementById('iframe').src = this.href; return false;" 
+                    target="_blank"
+                    class="LinkFrame"
+                    onclick="prevent(event)">
+                        <article class="projsdw">
+                            <h6 class="TitlePage">E-commerce</h6>
+                            <img src="imagens/veigasPrint.png" alt="Veigas Print Frame">
+                            <a href="https://wdevweb.github.io/VeigasImportados/" target="_blank">
+                                <input type="button" value="Visitar" class="BtnPages">
+                            </a>
+                        </article>
+                    </a>
+                    
+                    <a 
+                    href="https://wdevweb.github.io/WorldOfWarcraft/" 
+                    onmouseenter="document.getElementById('iframe').src = this.href; return false;" 
+                    target="_blank"
+                    class="LinkFrame"
+                    onclick="prevent(event)">
+                        <article class="projsdw">
+                            <h6 class="TitlePage">Blog Game</h6>
+                            <img src="imagens/wowPrint.png" alt="Wow Print Frame">
+                            <a href="https://wdevweb.github.io/WorldOfWarcraft/" target="_blank">
+                                <input type="button" value="Visitar" class="BtnPages">
+                            </a>
+                        </article>
+                    </a>
+
+                    <a 
+                    href="https://wdevweb.github.io/ProjectFiles/" 
+                    onmouseenter="document.getElementById('iframe').src = this.href; return false;" 
+                    target="_blank"
+                    class="LinkFrame"
+                    onclick="prevent(event)">
+                        <article class="projsdw">
+                            <h6 class="TitlePage">Gerenciador de Projetos</h6>
+                            <img src="imagens/PfPrint.png" alt="ProjectFiles Print Frame">
+                            <a href="https://wdevweb.github.io/ProjectFiles/" target="_blank">
+                                <input type="button" value="Visitar" class="BtnPages">
+                            </a>
+                        </article>
+                    </a>
+
+                  </div>
+
+                  <div class="diviframedevweb" data-aos="zoom-out">
+                    <iframe src="" frameborder="0" id="iframe" class="iframeWWeb"></iframe>
+                  </div>
+                  
             </div>
             <div id="protfoliodesigner">
                 <h2 class="h2proj" data-aos="zoom-out" title="Designer Identidade Visual">Designer Gráfico</h2>

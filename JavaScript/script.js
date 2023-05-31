@@ -74,11 +74,13 @@ function car(){
 }
 
 //-------------------- ANIMAÇÃO BOTÕES HABIILIDADES
+
 function phtml(){
     var html = document.getElementById('psobre')
 
-    html.innerHTML = '<h2>HTML5</h2><p>É uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web.</p>'
+    html.innerHTML = '<h2>HTML</h2><p>Dominio da linguagem na versão 5.</p>'
 }
+
 function lhtml(){
     var html = document.getElementById('psobre')
 
@@ -88,7 +90,7 @@ function lhtml(){
 function pcss(){
     var html = document.getElementById('psobre')
 
-    html.innerHTML = '<h2>CSS3</h2><p>CSS é a sigla para o termo em inglês Cascading Style Sheets que, traduzido para o português, significa Folha de Estilo em Cascatas.</p>'
+    html.innerHTML = '<h2>CSS</h2><p>Dominio da linguagem na versão 3.</p>'
 }
 
 function lcss(){
@@ -100,7 +102,7 @@ function lcss(){
 function pjs(){
     var html = document.getElementById('psobre')
 
-    html.innerHTML = '<h2>JavaScript</h2><p>A linguagem de programação Javascript permite ao desenvolvedor implementar diversos itens de alto nível de complexidade em páginas web.</p>'
+    html.innerHTML = '<h2>JavaScript</h2><p>Dominio da linguagem primária e bibliotecas direcionadas ao desenvolvimento web, tais como: Booststrap, JQuery, React e Node.js para o desenvolvimento e auxilio de outras bibliotecas de apoio como AOS por exemplo.</p>'
 }
 
 function ljs(){
@@ -112,7 +114,7 @@ function ljs(){
 function pwp(){
     var html = document.getElementById('psobre')
 
-    html.innerHTML = '<h2>WordPress</h2><p> Uma plataforma para publicação e gerenciamento de blogs e sites.</p>'
+    html.innerHTML = '<h2>WordPress</h2><p> Dominio da plataforma de desenvolvimento.</p>'
 }
 
 function lwp(){
@@ -124,7 +126,7 @@ function lwp(){
 function pps(){
   var html = document.getElementById('psobre')
 
-  html.innerHTML = '<h2>PhotoShop</h2><p>Designer.</p>'
+  html.innerHTML = '<h2>PhotoShop</h2><p>Dominio do editor de imagens para diversos fins.</p>'
 }
 function lps(){
   var html = document.getElementById('psobre')
@@ -135,20 +137,9 @@ function lps(){
 function pcd(){
   var html = document.getElementById('psobre')
 
-  html.innerHTML = '<h2>CorelDraw</h2><p>Designer.</p>'
+  html.innerHTML = '<h2>CorelDraw</h2><p>Dominio do editor de imagens para diversos fins.</p>'
 }
 function lcd(){
-  var html = document.getElementById('psobre')
-
-  html.innerHTML = 'Passe por cima de cada botão para ver sobre!'
-}
-
-function psql(){
-  var html = document.getElementById('psobre')
-
-  html.innerHTML = '<h2>MySQL</h2><p>Banco de dados.</p>'
-}
-function lsql(){
   var html = document.getElementById('psobre')
 
   html.innerHTML = 'Passe por cima de cada botão para ver sobre!'
@@ -224,22 +215,3 @@ function restaurarimg(){
 const prevent = (e) =>{
   e.preventDefault()
 }
-
-
-
-
-
-
-
-
-
-
-$(document).ready(function(){
-  $('#caixamaiormenu').hover(function(){
-    $(this).addClass('show');
-    $(this).find('.dropdown-menu').addClass('show');
-  }, function(){
-    $(this).removeClass('show');
-    $(this).find('.dropdown-menu').removeClass('show');
-  });
-});

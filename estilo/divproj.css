@@ -149,6 +149,7 @@ div#protfoliodesigner{
     border-radius: 8px;
     transition: 3s transform , 2s ease-in-out;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .iframelogos{

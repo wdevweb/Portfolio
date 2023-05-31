@@ -212,8 +212,8 @@ function logos(imagem) {
 }
 
 function restaurarimg(){
-  var foficial = "imagens/DesignerGrafico/LogosFundoOficial/FundoOficial.jpg"
-  var ftransparente = "imagens/DesignerGrafico/LogosFundoOficial/FundoTransparente.png"
+  var foficial = "imagens/DesignerGrafico/LogosFundoOficial/FundoOficial.png"
+  var ftransparente = "imagens/DesignerGrafico/LogosFundoOficial/Fundo.png"
   document.getElementById("if1").src = foficial
   document.getElementById("if2").src = ftransparente
 

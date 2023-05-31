@@ -204,24 +204,18 @@ function smoothScrollTo(endX, endY, duration) {
 function logos(imagem) {
   var limg = []
   
-  for (var i = 1; i <= 4; i++) {
+  for (var i = 1; i <= 2; i++) {
     limg.push("imagens/DesignerGrafico/teste/" + imagem + i + ".png");
   }
   document.getElementById("if1").src = limg[0]
   document.getElementById("if2").src = limg[1]
-  document.getElementById("if3").src = limg[2]
-  document.getElementById("if4").src = limg[3]
 }
 
 function restaurarimg(){
   var foficial = "imagens/DesignerGrafico/LogosFundoOficial/FundoOficial.jpg"
   var ftransparente = "imagens/DesignerGrafico/LogosFundoOficial/FundoTransparente.png"
-  var fpreto = "imagens/DesignerGrafico/LogosFundoOficial/FundoPreto.jpg"
-  var fbranco = "imagens/DesignerGrafico/LogosFundoOficial/FundoBranco.jpg"
   document.getElementById("if1").src = foficial
   document.getElementById("if2").src = ftransparente
-  document.getElementById("if3").src = fpreto
-  document.getElementById("if4").src = fbranco
 
 }
 

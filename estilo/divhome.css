@@ -56,23 +56,40 @@ h2.esc{
 }
 
 
-p.esc{
+.Digitando{
     font-size: min(15pt, 3vw);
     margin-top: 10px;
-    animation: corabertura;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
     font-family: Arial, Helvetica, sans-serif;
+    border-right: 2px solid black ;
+    animation: corabertura .7s infinite normal ,digitando 5s steps(90) normal;
+    white-space: nowrap;
+    overflow: hidden
 }
 
 @keyframes corabertura{
     from{
-        color: black;
+        border-right: 2px solid black ;
     }
     to{
-        color: var(--cor5);
+        border-right: 2px solid rgba(0, 0, 0, 0.219) ;
+    }
+}
+
+@keyframes digitando{
+    from{
+        width: 0;
+    }
+    to{
+        width: 445px;
+    }
+}
+
+@keyframes cursor{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
     }
 }
 
@@ -117,6 +134,7 @@ div#ola2{
     animation-timing-function: calc(0.1, 25, 36, 0.28), calc(0.1, 25, 36, 0.28), ;
     animation-iteration-count: infinite, infinite, 1;
     animation-direction: alternate, alternate, alternate;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.4));
 }
 
 @keyframes fperfilsumiu{

@@ -23,7 +23,6 @@ div#sobre{
 #rsdesc{
     width: 100%;
     min-height: 250px;
-    max-height: 500vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -31,13 +30,9 @@ div#sobre{
 }
 
 .rscard{
-    justify-content: center;
-    padding: 30px 0px 30px 0px;
     min-width: 350px;
     max-width: 400px;
-    height: 230px;
     color: white;
-    float: left;
 }
 
 #titsocial{
@@ -130,6 +125,7 @@ p.redep{
     width: 150px;
     height: 250px;
     margin-left: 60p;
+    filter: drop-shadow(0px 0px 6px rgba(173, 216, 230, 0.27));
 }
 
 #anel{
@@ -141,7 +137,7 @@ p.redep{
     animation-iteration-count: infinite;
     animation-direction: alternate;
     position: absolute;
-    
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 224, 0.432));
 }
 
 #anel:hover{
@@ -232,6 +228,13 @@ p.redep{
     animation-direction: reverse;
 }
 
+#bri1,
+#bri2,
+#bri3,
+#bri4{
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 224, 0.459));
+}
+
 @keyframes brilhos{
     from{
         opacity: 0;
@@ -304,6 +307,7 @@ h4#titqual{
     font-family: var(--fonttitulo);
     font-size: 18px;
     color: var(--cor5);
+    cursor: pointer;
 }
 
 /*             */

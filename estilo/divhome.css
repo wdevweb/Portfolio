@@ -37,22 +37,6 @@ h2.esc{
     font-size: min(20pt, 4vw);
     font-family: 'DynaPuff', cursive;
     margin-top: 10px;
-    animation: fsumiu; 
-    animation-duration:1s;
-    animation-delay: 9s;
-    animation-fill-mode:forwards;
-    animation-direction: reverse;
-    animation-iteration-count:infinite;
-}
-
-
-@keyframes fsumiu{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
 }
 
 

@@ -102,7 +102,7 @@ function lcss(){
 function pjs(){
     var html = document.getElementById('psobre')
 
-    html.innerHTML = '<h2>JavaScript</h2><p>Dominio da linguagem primária e bibliotecas direcionadas ao desenvolvimento web, tais como: Booststrap, JQuery, React e Node.js para o desenvolvimento e auxilio de outras bibliotecas de apoio como AOS por exemplo.</p>'
+    html.innerHTML = '<h2>JavaScript</h2><p>Dominio da linguagem primária e bibliotecas direcionadas ao desenvolvimento web, tais como: Booststrap, JQuery, React e Node.js para o desenvolvimento e auxilio de outras bibliotecas de apoio como JSON para simular uma API-FAKE para teste dos projetos.</p>'
 }
 
 function ljs(){

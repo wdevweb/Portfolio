@@ -111,13 +111,35 @@ function ljs(){
     html.innerHTML = 'Passe por cima de cada botão para ver sobre!'
 }
 
-function pwp(){
+function preact(){
     var html = document.getElementById('psobre')
 
-    html.innerHTML = '<h2>WordPress</h2><p> Dominio da plataforma de desenvolvimento.</p>'
+    html.innerHTML = '<h2>React.js</h2> <p> Dominio da biblioteca de desenvolvimento.</p>'
 }
 
-function lwp(){
+function lreact(){
+    var html = document.getElementById('psobre')
+
+    html.innerHTML = 'Passe por cima de cada botão para ver sobre!'
+}
+
+function pts(){
+    var html = document.getElementById('psobre')
+    html.innerHTML = '<h2>TypeScript</h2> <p> Dominio da linguagem de programação.</p>'
+}
+
+function lnode(){
+  var html = document.getElementById('psobre')
+
+  html.innerHTML = 'Passe por cima de cada botão para ver sobre!'
+}
+
+function pnode(){
+  var html = document.getElementById('psobre')
+  html.innerHTML = '<h2>Node.js</h2> <p> Dominio da plataforma de desenvolvimento.</p>'
+}
+
+function lts(){
     var html = document.getElementById('psobre')
 
     html.innerHTML = 'Passe por cima de cada botão para ver sobre!'

@@ -48,6 +48,10 @@ div#logos{
     background-color: #8C7C6D;
     margin: 10px;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 div#desc{
@@ -72,8 +76,7 @@ p#psobre{
 }
 
 img.logs{
-    width: 93px;
-    height: 93px;
+    height: 35%;
     border-radius: 50%;
     float: left;
     margin: 8px;
@@ -81,7 +84,6 @@ img.logs{
     animation-name: blogo;
     animation-duration: 3.5s;
     animation-fill-mode: forwards;
-    
     transition: 2s transform , 1s ease-in-out;
 }
 

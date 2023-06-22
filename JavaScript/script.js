@@ -150,16 +150,16 @@ function pps(){
 
   html.innerHTML = '<h2>PhotoShop</h2><p>Dominio do editor de imagens para diversos fins.</p>'
 }
-function lps(){
+function ln(){
   var html = document.getElementById('psobre')
 
   html.innerHTML = 'Passe por cima de cada botão para ver sobre!'
 }
 
-function pcd(){
+function pn(){
   var html = document.getElementById('psobre')
 
-  html.innerHTML = '<h2>CorelDraw</h2><p>Dominio do editor de imagens para diversos fins.</p>'
+  html.innerHTML = '<h2>Next.js</h2><p>Dominio do framework para o desenvolvimento React.js.</p>'
 }
 function lcd(){
   var html = document.getElementById('psobre')
